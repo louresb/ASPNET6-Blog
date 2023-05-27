@@ -66,7 +66,7 @@ namespace Blog.Controllers
 
                 return Created($"v1/categories/{category.Id}", new ResultViewModel<Category>(category));
             }
-            catch (DbUpdateException ex)
+            catch (DbUpdateException)
             {
                 return StatusCode(500, new ResultViewModel<Category>("01P2 - Não foi possível criar a categoria"));
             }
@@ -99,11 +99,11 @@ namespace Blog.Controllers
 
                 return Ok(new ResultViewModel<Category>(category));
             }
-            catch (DbUpdateException ex)
+            catch (DbUpdateException)
             {
                 return StatusCode(500, new ResultViewModel<Category>("01U2 - Não foi possível alterar a categoria"));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ResultViewModel<Category>("01U1 - Falha interna no servidor"));
             }
@@ -128,11 +128,11 @@ namespace Blog.Controllers
 
                 return Ok(new ResultViewModel<Category>(category));
             }
-            catch (DbUpdateException ex)
+            catch (DbUpdateException)
             {
                 return StatusCode(500, new ResultViewModel<Category>("01E2 - Não foi possível excluir a categoria"));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, new ResultViewModel<Category>("01E1 - Falha interna no servidor"));
             }

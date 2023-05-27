@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Blog\\Blog.csproj": {}
+    "C:\\dev\\ASPNET6-Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Blog\\Blog.csproj": {
+    "C:\\dev\\ASPNET6-Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\dev\\ASPNET6-Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\dev\\Blog\\Blog.csproj",
+        "projectPath": "C:\\dev\\ASPNET6-Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Blog\\obj\\",
+        "outputPath": "C:\\dev\\ASPNET6-Blog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "SecureIdentity": {
+              "target": "Package",
+              "version": "[1.0.4, )"
             }
           },
           "imports": [
