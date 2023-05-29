@@ -183,3 +183,4 @@ C:\dev\ASPNET6-Blog\obj\Debug\net6.0\Blog.pdb
 C:\dev\ASPNET6-Blog\obj\Debug\net6.0\Blog.genruntimeconfig.cache
 C:\dev\ASPNET6-Blog\obj\Debug\net6.0\ref\Blog.dll
 C:\dev\ASPNET6-Blog\bin\Debug\net6.0\SecureIdentity.dll
+C:\dev\ASPNET6-Blog\bin\Debug\net6.0\Blog.staticwebassets.runtime.json
